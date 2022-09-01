@@ -44,9 +44,8 @@ export const Footer = styled.View`
 export const Title = styled.Text`
     ${({theme}) => css `
         font-size: 32px;
-        color: ${theme.colors.text};
+        color: ${theme.colors.backgroundCard.eletric};
         margin-bottom: 45px;
         font-family: ${theme.fonts.title};
-
     `}
 `

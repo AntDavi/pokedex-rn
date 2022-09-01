@@ -34,6 +34,6 @@ export default {
 
     fonts: {
       text: 'Poppins_400Regular',
-      title: 'Poppins_600SemiBold'
+      title: 'Poppins_500Medium'
     }
   };
