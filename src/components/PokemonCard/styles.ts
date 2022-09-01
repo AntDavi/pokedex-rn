@@ -78,7 +78,7 @@ export const PokemonTypeTitle = styled.Text`
 export const RightSide = styled.View`
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 70%;
     position: relative;
 `
 

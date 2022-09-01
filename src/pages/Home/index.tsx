@@ -44,13 +44,15 @@ export function Home() {
         }
     }
 
-    return <S.Container>
-        <FlatList
-            data={pokemons}
-            keyExtractor={pokemon => pokemon.id.toString()}
-            renderItem={({item: pokemon}) => (
-                <PokemonCard data={pokemon}/>
-            )}
-        />
-    </S.Container>
+    return (
+        <S.Container>
+            <FlatList
+                data={pokemons}
+                keyExtractor={pokemon => pokemon.id.toString()}
+                renderItem={({item: pokemon}) => (
+                    <PokemonCard data={pokemon}/>
+                )}
+            />
+        </S.Container>
+    )
 }

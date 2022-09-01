@@ -6,6 +6,7 @@ export default {
       light_text: 'rgba(23, 23, 27, 0.6)',
       detail: '#747476',
       dark_blue: '#4B77DA',
+      red: '#D7263D',
   
       backgroundCard: {
         grass: '#8BBE8A',
