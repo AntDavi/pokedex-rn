@@ -4,6 +4,10 @@ import { Pokemon, PokemonCard, PokemonType } from '../../components/PokemonCard'
 import api from '../../services/api';
 import * as S from './styles'
 
+import { useNavigation } from '@react-navigation/native';
+
+import PokeballHeader from '../../assets/images/pokeball.png'
+
 type Request = {
     id: number
     types: PokemonType[];
@@ -12,6 +16,13 @@ type Request = {
 export function Home() {
 
     const [pokemons, setPokemons] = useState<Pokemon[]>([])
+    const {navigate} = useNavigation();
+
+    function handlerNavigation(pokemonId: number) {
+        navigate('About', {
+            pokemonId,
+        })
+    }
 
     useEffect(() => {
         async function getAllPokemons() {
@@ -47,10 +58,22 @@ export function Home() {
     return (
         <S.Container>
             <FlatList
+                ListHeaderComponent={
+                    <>
+                        <S.Header source={PokeballHeader}/>
+                        <S.Title>Pokédex</S.Title>
+                    </>
+                }
+                contentContainerStyle={{
+                    paddingHorizontal: 20,
+                    paddingBottom: 20,
+                }}
                 data={pokemons}
                 keyExtractor={pokemon => pokemon.id.toString()}
                 renderItem={({item: pokemon}) => (
-                    <PokemonCard data={pokemon}/>
+                    <PokemonCard data={pokemon} onPress={() => {
+                        handlerNavigation(pokemon.id)
+                    }}/>
                 )}
             />
         </S.Container>

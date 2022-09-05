@@ -45,6 +45,6 @@ export const Title = styled.Text`
     ${({theme}) => css `
         font-size: 32px;
         color: ${theme.colors.red};
-        font-family: ${theme.fonts.title};
+
     `}
 `

@@ -31,10 +31,10 @@ export default {
         eletric: '#F2CB55',
         ground: '#F78551',
       },
-    },
-
-    fonts: {
-      text: 'Poppins_400Regular',
-      title: 'Poppins_500Medium'
     }
+
+    // fonts: {
+    //   text: 'Poppins_400Regular',
+    //   title: 'Poppins_500Medium'
+    // }
   };

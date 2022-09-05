@@ -21,7 +21,7 @@ export const LeftSide = styled.View`
 
 export const PokemonID = styled.Text`
     ${({theme}) => css`
-        font-family: ${theme.fonts.title};
+
         font-size: 12px;
         line-height: 14px;
         color: ${theme.colors.light_text};
@@ -30,7 +30,7 @@ export const PokemonID = styled.Text`
 
 export const PokemonName = styled.Text`
     ${({theme}) => css`
-        font-family: ${theme.fonts.title};
+
         font-size: 22px;
         line-height: 32px;
         margin-top: 8px;
@@ -67,7 +67,6 @@ export const PokemonType = styled.View<PokemonType>`
 
 export const PokemonTypeTitle = styled.Text`
     ${({theme}) => css`
-        font-family: ${theme.fonts.text};
         font-size: 12px;
         line-height: 14px;
         color: ${theme.colors.text_white};
