@@ -7,7 +7,7 @@ export const Container = styled.TouchableOpacity`
         background-color: ${theme.colors.red}
         justify-content: center;
         align-items: center;
-        border-radius: 24px
+        border-radius: 8px
     `}
 `
 

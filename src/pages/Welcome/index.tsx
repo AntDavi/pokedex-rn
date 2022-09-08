@@ -23,14 +23,14 @@ export function Welcome() {
                     </S.WrapperImage>
                 </S.WrapperAnimation>
                 <S.Title>
-                    Pokedex
+                    Pokédex
                 </S.Title>
                 <S.Subtitle>
-                    Hello there! Welcome to the world of Pokemon!
+                    Hello there! Welcome to the world of Pokémon!
                 </S.Subtitle>
             </S.Content>
             <S.Footer>
-                    <Button title="Gotta catch'em all" onPress={handlerNavigation}/>
+                    <Button title="Gotta catch 'em all" onPress={handlerNavigation}/>
             </S.Footer>
         </S.Container>
     )
