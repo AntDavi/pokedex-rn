@@ -9,6 +9,7 @@ import dots from '../../assets/images/dots.png'
 
 import * as S from './styles'
 import { FadeAnimation } from '../../components/FadeAnimation'
+import theme from '../../global/styles/theme'
 
 type RouteParams = {
     pokemonId: number
@@ -174,6 +175,13 @@ export function About() {
                                             width={attribute.base_stat}
                                             color={pokemon.color}
                                         />
+                                        <S.ProgressShadow 
+                                            borderWidth={1}
+                                            progress={100}
+                                            width={100}
+                                            color={theme.colors.shadow}
+                                        />
+            
                                     </S.ContentBar>
                                 </S.StatusBar>
                             </>

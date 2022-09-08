@@ -11,12 +11,14 @@ export const Container = styled.View`
     `}
 `
 
-export const Header = styled.ImageBackground`
+export const Header = styled.View`
     ${({theme}) => css`
-        height: 220px;
+        height: 100px;
         width: ${windowWidth}px;
-        background-color: ${theme.colors.background};
+        background-color: ${theme.colors.red};
         margin-left: -20px;
+        justify-content: flex-end;
+        padding: 20px;
     `}
 `
 
@@ -25,6 +27,6 @@ export const Title = styled.Text`
         font-size: 32px;
         line-height: 32px;
         font-weight: bold;
-        color: ${theme.colors.light_text};
+        color: ${theme.colors.text_white};
     `}
 `

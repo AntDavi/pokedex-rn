@@ -60,8 +60,9 @@ export function Home() {
             <FlatList
                 ListHeaderComponent={
                     <>
-                        <S.Header source={PokeballHeader}/>
-                        <S.Title>Pokédex</S.Title>
+                        <S.Header>
+                            <S.Title>Pokedex</S.Title>
+                        </S.Header>
                     </>
                 }
                 contentContainerStyle={{

@@ -158,7 +158,14 @@ export const ContentBar = styled.View`
     margin-top: 6px;
 `
 
-export const ProgressBar = styled(Progress.Bar)<TypeProps>``
+export const ProgressBar = styled(Progress.Bar)<TypeProps>`
+    z-index: 3;
+`
+
+export const ProgressShadow = styled(Progress.Bar)`
+    z-index: -999;
+    position: absolute;
+`
 
 export const Ability = styled.Text`
     ${({theme}) => css`

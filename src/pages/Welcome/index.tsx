@@ -23,7 +23,7 @@ export function Welcome() {
                     </S.WrapperImage>
                 </S.WrapperAnimation>
                 <S.Title>
-                    PokeDex
+                    Pokedex
                 </S.Title>
                 <S.Subtitle>
                     Hello there! Welcome to the world of Pokemon!
