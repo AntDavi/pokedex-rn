@@ -25,6 +25,9 @@ export function Welcome() {
                 <S.Title>
                     PokeDex
                 </S.Title>
+                <S.Subtitle>
+                    Hello there! Welcome to the world of Pokemon!
+                </S.Subtitle>
             </S.Content>
             <S.Footer>
                     <Button title="Gotta catch'em all" onPress={handlerNavigation}/>
