@@ -171,14 +171,14 @@ export function About() {
                                         <S.ProgressBar 
                                             type={pokemon.types[0].type.name}
                                             borderWidth={1}
-                                            progress={100}
+                                            progress={250}
                                             width={attribute.base_stat}
                                             color={pokemon.color}
                                         />
                                         <S.ProgressShadow 
                                             borderWidth={1}
-                                            progress={100}
-                                            width={100}
+                                            progress={250}
+                                            width={250}
                                             color={theme.colors.shadow}
                                         />
             
