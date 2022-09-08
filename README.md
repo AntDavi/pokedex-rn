@@ -45,10 +45,10 @@ Made with [PokéAPI](https://pokeapi.co/), this project simulates the different 
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/AntDavi/it-s-your-Route
+$ git clone https://github.com/AntDavi/pokedex
 
 # Instale as dependências
-$ npm install
+$ yarn install
 
 # Execute a aplicação
 $ expo start
