@@ -36,10 +36,10 @@ Made with [PokéAPI](https://pokeapi.co/), this project simulates the different 
 
 ## Functionalities
 
-[✅] List Pokemons in numerical order
-[✅] View Pokémon Basic Stats and Abilities
-[⌛] Search Pokemon by name
-[⌛] View evolutionary path for each pokemon
+- [✅] List Pokemons in numerical order
+- [✅] View Pokémon Basic Stats and Abilities
+- [⌛] Search Pokemon by name
+- [⌛] View evolutionary path for each pokemon
 
 ## 🚀 How to run the project
 
