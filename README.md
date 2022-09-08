@@ -40,6 +40,7 @@ Made with [PokéAPI](https://pokeapi.co/), this project simulates the different 
 - [✅] View Pokémon Basic Stats and Abilities
 - [⌛] Search Pokemon by name
 - [⌛] View evolutionary path for each pokemon
+- [⌛] Pagination with all pokemons
 
 ## 🚀 How to run the project
 
