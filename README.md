@@ -45,13 +45,13 @@ Made with [PokéAPI](https://pokeapi.co/), this project simulates the different 
 ## 🚀 How to run the project
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/AntDavi/pokedex
 
-# Instale as dependências
+# Install the dependencies
 $ yarn install
 
-# Execute a aplicação
+# Run the application
 $ expo start
 ```
 
