@@ -61,7 +61,7 @@ export function Home() {
                 ListHeaderComponent={
                     <>
                         <S.Header>
-                            <S.Title>Pokedex</S.Title>
+                            <S.Title>Pokédex</S.Title>
                         </S.Header>
                     </>
                 }

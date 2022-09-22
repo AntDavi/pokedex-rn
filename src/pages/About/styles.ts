@@ -23,6 +23,13 @@ export const BackButton = styled.TouchableOpacity`
     position: absolute;
     top: 70px;
     left: 20px;
+    background-color: #fff;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const ContentImage = styled.View`

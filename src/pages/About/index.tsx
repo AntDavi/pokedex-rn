@@ -114,7 +114,7 @@ export function About() {
                 <ScrollView style={{flex: 1, backgroundColor: "#fff"}}>
                 <S.Header type={pokemon.types[0].type.name}>
                     <S.BackButton onPress={handleGoBack}>
-                        <Feather name="chevron-left" size={24} color="#fff"/>
+                        <Feather name="chevron-left" size={24} color="#000"/>
                     </S.BackButton>
 
                         

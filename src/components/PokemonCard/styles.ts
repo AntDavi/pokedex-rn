@@ -21,7 +21,6 @@ export const LeftSide = styled.View`
 
 export const PokemonID = styled.Text`
     ${({theme}) => css`
-
         font-size: 12px;
         line-height: 14px;
         color: ${theme.colors.light_text};
