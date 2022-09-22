@@ -38,26 +38,33 @@ Made with [PokéAPI](https://pokeapi.co/), this project simulates the different 
 
 - [✅] List Pokemons in numerical order
 - [✅] View Pokémon Basic Stats and Abilities
+- [⌛] Login with google and facebook
 - [⌛] Search Pokemon by name
-- [⌛] View evolutionary path for each pokemon
 - [⌛] Pagination with all pokemons
+- [⌛] View evolutionary path for each pokemon
 
 ## 🚀 How to run the project
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/AntDavi/pokedex
 
-# Instale as dependências
+# Install the dependencies
 $ yarn install
 
-# Execute a aplicação
+# Run the application
 $ expo start
 ```
 
 ## 📝 License
 
 This project is under the MIT license.
+
+## ⚠️ Disclaimer
+
+This application is just a study, data obtained in an eventual update will not be used for other purposes.
+
+
 
 Done with ❤️ por Anthony Davi 👋🏽 [Contact!](https://www.linkedin.com/in/antdavi/)
 
